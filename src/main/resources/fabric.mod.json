@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "template",
+  "version": "${version}",
+  "name": "fantomTemplate",
+  "description": "",
+  "authors": [
+    "Simon R - fantomitechno"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.renoux.template.Template"
+    ]
+  },
+  "mixins": [
+    "template.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": ">=0.119.5",
+    "minecraft": ">=1.21.5",
+    "java": ">=21"
+  }
+}
