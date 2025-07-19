@@ -1,12 +1,12 @@
 [versions]
-minecraft = "1.21.6"
+minecraft = "1.21.8"
 fabric_loader = "0.16.14"
 
-parchment_minecraft = "1.21.6-pre1"
-parchment_mappings = "BLEEDING-SNAPSHOT"
+parchment_minecraft = "1.21.8"
+parchment_mappings = "2025.07.18"
 
 # APIs
-fabric_api = "0.128.0+1.21.6"
+fabric_api = "0.129.0+1.21.8"
 
 devlogin = "3.5"
 
