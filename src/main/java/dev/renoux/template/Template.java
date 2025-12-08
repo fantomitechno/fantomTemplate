@@ -37,7 +37,7 @@ public class Template implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        metadata = FabricLoader.getInstance().getModContainer("templatee").get().getMetadata();
+        metadata = FabricLoader.getInstance().getModContainer("template").get().getMetadata();
         LOGGER = LoggerFactory.getLogger(metadata.getId());
 
         LOGGER.info("{} : LOADING", metadata.getName());

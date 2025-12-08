@@ -1,14 +1,11 @@
 [versions]
-minecraft = "1.21.8"
-fabric_loader = "0.16.14"
+minecraft = "1.21.10"
+fabric_loader = "0.18.1"
 
-parchment_minecraft = "1.21.8"
-parchment_mappings = "2025.07.18"
+parchment_mappings = "2025.10.12"
 
 # APIs
-fabric_api = "0.129.0+1.21.8"
-
-devlogin = "3.5"
+fabric_api = "0.138.3+1.21.10"
 
 quilt_config = "1.3.1"
 night_config = "3.6.6"
@@ -18,8 +15,6 @@ minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
 fabric_loader = {module= "net.fabricmc:fabric-loader", version.ref = "fabric_loader"}
 fabric_api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric_api" }
 
-
-devlogin = {module = "com.ptsmods:devlogin", version.ref = "devlogin"}
 
 quilt_config = {module = "org.quiltmc:quilt-config", version.ref = "quilt_config"}
 quilt_config_toml = {module = "org.quiltmc.quilt-config.serializers:toml", version.ref = "quilt_config"}
